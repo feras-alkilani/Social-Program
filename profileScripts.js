@@ -14,7 +14,7 @@ function getUserInfo(){
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get("userId");
 
-    toggleLoader(true);
+    // toggleLoader(true);
 
      axios
       .get(`${baseUrl}/users/${id}`)
@@ -94,7 +94,7 @@ function getUserInfo(){
 function getUserPosts(id) {
 
 
-  toggleLoader(true);
+  // toggleLoader(true);
   axios
     .get(`${baseUrl}/users/${id}/posts`)
     .then(function(response) {
