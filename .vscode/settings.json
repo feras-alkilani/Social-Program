@@ -1,0 +1,13 @@
+{
+  "sortJSON.excludedFiles": ["package.json"],
+  "workbench.settings.useSplitJSON": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "bysabi.prettier-vscode-standard"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}
