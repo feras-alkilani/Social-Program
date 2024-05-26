@@ -148,7 +148,7 @@ function loginBtnClicked() {
   let userName = document.querySelector("#userName-input").value;
   let password = document.querySelector("#password-input").value;
 
-  toggleLoader(true);
+  // toggleLoader(true);
 
   axios
     .post(`${baseUrl}/login`, {
