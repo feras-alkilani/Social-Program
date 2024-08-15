@@ -1,0 +1,1 @@
+Through this website, users can add, delete, or edit posts. It utilizes a trial API to display previous users and their posts, employing HTML, CSS, and JS to deliver a seamless and interactive experience.
